@@ -74,21 +74,22 @@ public class GenerateCube : MonoBehaviour
             new Vector3(1.0f, 1.0f, 1.0f),
 
             // Front face
+            
+            new Vector3(1.0f, -1.0f, 1.0f),
             new Vector3(1.0f, 1.0f, 1.0f),
+            new Vector3(-1.0f, 1.0f, 1.0f),
+            
             new Vector3(1.0f, -1.0f, 1.0f),
             new Vector3(-1.0f, 1.0f, 1.0f),
-
             new Vector3(-1.0f, -1.0f, 1.0f),
-            new Vector3(1.0f, -1.0f, 1.0f),
-            new Vector3(-1.0f, 1.0f, 1.0f),
 
             // Back face
-            new Vector3(1.0f, 1.0f, -1.0f),
             new Vector3(1.0f, -1.0f, -1.0f),
             new Vector3(-1.0f, 1.0f, -1.0f),
+            new Vector3(1.0f, 1.0f, -1.0f),
 
-            new Vector3(-1.0f, -1.0f, -1.0f),
             new Vector3(1.0f, -1.0f, -1.0f),
+            new Vector3(-1.0f, -1.0f, -1.0f),
             new Vector3(-1.0f, 1.0f, -1.0f)
         });
 
